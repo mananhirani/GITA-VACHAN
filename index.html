@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita Vachan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Bhagavad Gita Vachan</h1>
+
+        <!-- Introduction Page -->
+        <div id="intro-page" class="page active">
+            <h2>About Bhagavad Gita</h2>
+            <div class="intro-content">
+                <p><strong>Speaker:</strong> <span id="gita-speaker"></span></p>
+                <p><strong>Total Adhyays:</strong> <span id="total-adhyays"></span></p>
+                <p><strong>Total Shlokas:</strong> <span id="total-shlokas"></span></p>
+                <p><strong>Shlokas Presented By:</strong> <span id="shlokas-presented-by"></span></p>
+            </div>
+            <button id="start-reading-btn">Start Reading</button>
+        </div>
+
+        <!-- Gita Vachan Page -->
+        <div id="gita-vachan-page" class="page">
+            <div id="shloka-display">
+                <h2 id="shloka-number"></h2>
+                <p id="sanskrit-text"></p>
+                <p id="translation-text"></p>
+            </div>
+            <div class="navigation-buttons">
+                <button id="prev-shloka-btn">Previous Shloka</button>
+                <button id="next-shloka-btn">Next Shloka</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
